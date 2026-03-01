@@ -13,6 +13,23 @@ The result is a system that is more auditable, replayable, and governable as AI 
 
 ---
 
+The Emergent State Machine (ESM) is the architectural pattern.
+
+Reference implementations and mutation-boundary instrumentation are provided by the Controlled Mutation Layer (CML):
+
+🔧 CML Organization
+https://github.com/controlled-mutation-layer
+
+🐍 Python Reference SDK
+https://github.com/controlled-mutation-layer/sdk-python
+
+ESM defines how state evolves.
+CML instruments the mutation boundary.
+
+They can be adopted independently, but are designed to work together.
+
+--- 
+
 ## Repository
 
 ### 📘 esm-spec
@@ -27,4 +44,5 @@ CML is a specification + SDK family for instrumenting mutation events at the dec
 ESM is the broader control architecture pattern that can incorporate CML.
 
 ESM and CML can be adopted independently, but they are designed to work well together.
+
 
