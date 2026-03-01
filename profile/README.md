@@ -32,8 +32,9 @@ They can be adopted independently, but are designed to work together.
 
 ## Repository
 
-### 📘 esm-spec
-The normative specification of the ESM pattern (execution model, layer separation, and turn structure).
+### 📘 [esm-spec →](https://github.com/emergent-state-machine/esm-spec)
+
+Normative specification of the ESM pattern (execution model, layer separation, and turn structure).
 
 ---
 
@@ -44,5 +45,6 @@ CML is a specification + SDK family for instrumenting mutation events at the dec
 ESM is the broader control architecture pattern that can incorporate CML.
 
 ESM and CML can be adopted independently, but they are designed to work well together.
+
 
 
