@@ -1,6 +1,6 @@
 # Emergent State Machine (ESM)
 
-🔬 Latest Paper
+## 🔬 Latest Paper
 
 Emergent State Machines: A Deterministic Architecture for Situational Reasoning in Complex Systems (v1.1.0)
 
@@ -19,7 +19,17 @@ ESM separates:
 
 The result is a system that is more auditable, replayable, and governable as AI components evolve.
 
+--- 
+
+## Repository
+
+### 📘 [esm-spec →](https://github.com/emergent-state-machine/esm-spec)
+
+Normative specification of the ESM pattern (execution model, layer separation, and turn structure).
+
 ---
+
+## Relationship to Controlled Mutation Layer (CML)
 
 The Emergent State Machine (ESM) is the architectural pattern.
 
@@ -34,25 +44,6 @@ https://github.com/controlled-mutation-layer/sdk-python
 ESM defines how state evolves.
 CML instruments the mutation boundary.
 
-They can be adopted independently, but are designed to work together.
-
---- 
-
-## Repository
-
-### 📘 [esm-spec →](https://github.com/emergent-state-machine/esm-spec)
-
-Normative specification of the ESM pattern (execution model, layer separation, and turn structure).
-
----
-
-## Relationship to Controlled Mutation Layer (CML)
-
-CML is a specification + SDK family for instrumenting mutation events at the decision boundary.
-
-ESM is the broader control architecture pattern that can incorporate CML.
-
 ESM and CML can be adopted independently, but they are designed to work well together.
-
 
 
