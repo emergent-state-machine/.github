@@ -1,5 +1,13 @@
 # Emergent State Machine (ESM)
 
+🔬 Latest Paper
+
+Emergent State Machines: A Deterministic Architecture for Situational Reasoning in Complex Systems (v1.1.0)
+
+📄 Read the paper: https://github.com/emergent-state-machine/esm-spec/blob/main/papers/esm-architecture/esm_architecture_v1.1.0.pdf
+
+## The Architecture
+
 Emergent State Machine (ESM) is a formal, turn-based control architecture pattern for systems where probabilistic interpretation must coexist with deterministic authority.
 
 ESM separates:
