@@ -9,9 +9,7 @@
 
 ---
 
-## The Architecture
-
-## The Framework
+## The Architectural Framework
 
 Emergent State Machines (ESMs) define a formal, turn-based control framework for systems in which probabilistic interpretation must coexist with deterministic authority.
 
