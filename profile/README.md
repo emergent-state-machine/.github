@@ -5,7 +5,7 @@
 
 **Emergent State Machines: A Deterministic Control Framework for Interpretable Situational Reasoning (v1.3.0)**  
 
-📄 [Read the paper (PDF)](https://github.com/emergent-state-machine/esm-spec/blob/main/papers/esm-architecture/esm_architecture_v1.3.0.pdf)<img width="634" height="39" alt="image" src="https://github.com/user-attachments/assets/e3a8da98-8bd1-49eb-8010-8cd155eb4a66" />
+📄 [Read the paper (PDF)](https://github.com/emergent-state-machine/esm-spec/blob/main/papers/esm-architecture/esm_architecture_v1.3.0.pdf)
 
 ---
 
