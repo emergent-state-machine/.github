@@ -4,7 +4,7 @@
 
 **Emergent State Machines: A Deterministic Architecture for Situational Reasoning in Complex Systems (v1.1.0)**  
 
-📄 [Read the paper (PDF)](https://github.com/emergent-state-machine/esm-spec/blob/main/papers/esm-architecture/esm_architecture_v1.1.0.pdf)
+📄 [Read the paper (PDF)](https://github.com/emergent-state-machine/esm-spec/blob/main/papers/esm-architecture/esm_architecture_v1.2.0.pdf)
 
 
 ## The Architecture
