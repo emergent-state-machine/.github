@@ -11,16 +11,23 @@
 
 ## The Architecture
 
-Emergent State Machine (ESM) is a formal, turn-based control architecture pattern for systems where probabilistic interpretation must coexist with deterministic authority.
+## The Framework
 
-ESM separates:
+Emergent State Machines (ESMs) define a formal, turn-based control framework for systems in which probabilistic interpretation must coexist with deterministic authority.
 
-- Descriptive state representation  
-- Deterministic, versioned policy authority  
-- Controlled mutation at the decision boundary  
-- Optional schema-constrained generative instrumentation  
+The framework is domain-agnostic: it operates over structured decision processes rather than domain-specific logic. Domain specificity is introduced through signal definitions, derived signal construction, and projection primitives, while the core control structure remains unchanged.
 
-The result is a system that is more auditable, replayable, and governable as AI components evolve.
+An ESM organizes reasoning into explicit, inspectable turns, each of which transforms observations into signals, constructs an interpretable state representation, evaluates relevance, and, when warranted, maps deterministically to an action or other outcome.
+
+ESM enforces structural separation between:
+
+- descriptive state representation
+- projection into policy-relevant coordinates
+- relevance gating (decision eligibility)
+- deterministic, versioned policy authority
+- optional schema-constrained generative instrumentation
+
+This separation produces systems that are auditable, replayable, and governable, even as underlying models, signals, or generative components evolve.
 
 --- 
 
