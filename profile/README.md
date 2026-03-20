@@ -7,6 +7,7 @@
 
 📄 [Read the paper (PDF)](esm-spec/papers/esm-architecture/esm_architecture_v1.3.0.pdf at main · emergent-state-machine/esm-spec)
 
+---
 
 ## The Architecture
 
