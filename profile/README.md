@@ -11,21 +11,37 @@
 
 ## The Architectural Framework
 
-Emergent State Machines (ESMs) define a formal, turn-based control framework for systems in which probabilistic interpretation must coexist with deterministic authority.
+Emergent State Machines (ESMs) define an architectural framework for deterministic, interpretable decision systems in which probabilistic interpretation is explicitly separated from governed decision authority.
 
-The framework is domain-agnostic: it operates over structured decision processes rather than domain-specific logic. Domain specificity is introduced through signal definitions, derived signal construction, and projection primitives, while the core control structure remains unchanged.
+The framework is domain-agnostic. It operates over structured decision processes rather than domain-specific logic. Domain specificity is introduced through signal definitions, derived signal construction, and projection functions, while the core architecture remains invariant.
 
-An ESM organizes reasoning into explicit, inspectable turns, each of which transforms observations into signals, constructs an interpretable state representation, evaluates relevance, and, when warranted, maps deterministically to an action or other outcome.
+An ESM organizes reasoning into explicit, inspectable turns. In each turn, the system:
 
-ESM enforces structural separation between:
+incorporates observations
+derives signals
+constructs a coherent state representing a fully interpreted situation
+re-expresses that state in policy-relevant coordinates (projection)
+determines whether the situation warrants evaluation (relevance determination)
+and, when warranted, produces a governed outcome through deterministic policy
 
-- descriptive state representation
-- projection into policy-relevant coordinates
-- relevance gating (decision eligibility)
-- deterministic, versioned policy authority
-- optional schema-constrained generative instrumentation
+The architecture enforces strict separation between:
 
-This separation produces systems that are auditable, replayable, and governable, even as underlying models, signals, or generative components evolve.
+coherent state construction (interpretation)
+projection (semantic-preserving re-expression into decision coordinates)
+relevance determination (the authorization boundary for evaluation)
+deterministic, versioned policy authority
+optional, schema-constrained generative instrumentation
+
+Projection introduces no new semantic content; it re-expresses an already fully interpreted state. Relevance determination governs whether policy is invoked, not what policy decides.
+
+This separation produces systems that are:
+
+- auditable
+- replayable
+- versionable
+- governable
+
+even as underlying models, signals, or generative components evolve.
 
 --- 
 
