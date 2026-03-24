@@ -17,20 +17,20 @@ The framework is domain-agnostic. It operates over structured decision processes
 
 An ESM organizes reasoning into explicit, inspectable turns. In each turn, the system:
 
-incorporates observations
-derives signals
-constructs a coherent state representing a fully interpreted situation
-re-expresses that state in policy-relevant coordinates (projection)
-determines whether the situation warrants evaluation (relevance determination)
-and, when warranted, produces a governed outcome through deterministic policy
+- incorporates observations
+- derives signals
+- constructs a coherent state representing a fully interpreted situation
+- re-expresses that state in policy-relevant coordinates (projection)
+- determines whether the situation warrants evaluation (relevance determination)
+- and, when warranted, produces a governed outcome through deterministic policy
 
 The architecture enforces strict separation between:
 
-coherent state construction (interpretation)
-projection (semantic-preserving re-expression into decision coordinates)
-relevance determination (the authorization boundary for evaluation)
-deterministic, versioned policy authority
-optional, schema-constrained generative instrumentation
+- coherent state construction (interpretation)
+- projection (semantic-preserving re-expression into decision coordinates)
+- relevance determination (the authorization boundary for evaluation)
+- deterministic, versioned policy authority
+- optional, schema-constrained generative instrumentation
 
 Projection introduces no new semantic content; it re-expresses an already fully interpreted state. Relevance determination governs whether policy is invoked, not what policy decides.
 
