@@ -3,9 +3,9 @@
 ## 🔬 Latest Paper
 
 
-**Emergent State Machines: An Architectural Framework for Deterministic, Interpretable Decision Systems (v1.5.0)**  
+**Emergent State Machines: An Architectural Framework for Deterministic, Interpretable Decision Systems (v1.6.0)**  
 
-📄 [Read the paper (PDF)](https://github.com/emergent-state-machine/esm-spec/blob/main/papers/esm-architecture/esm_architecture_v1.5.0.pdf)
+📄 [Read the paper (PDF)](https://github.com/emergent-state-machine/esm-spec/blob/main/papers/esm-architecture/esm_architecture_v1.6.0.pdf)
 
 ---
 
