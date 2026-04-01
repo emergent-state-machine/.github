@@ -3,15 +3,15 @@
 ## 🔬 Latest Paper
 
 
-**Emergent State Machines: An Architectural Framework for Deterministic, Interpretable Decision Systems (v1.6.0)**  
+**The Emergent State Machine: An Architectural Framework for Deterministic, Interpretable, Governable Decision Systems (v1.7.0)**  
 
-📄 [Read the paper (PDF)](https://github.com/emergent-state-machine/esm-spec/blob/main/papers/esm-architecture/esm_architecture_v1.6.0.pdf)
+📄 [Read the paper (PDF)](https://github.com/emergent-state-machine/esm-spec/blob/main/papers/esm-architecture/esm_architecture_v1.7.0.pdf)
 
 ---
 
 ## The Architectural Framework
 
-Emergent State Machines (ESMs) define an architectural framework for deterministic, interpretable decision systems in which probabilistic interpretation is explicitly separated from governed decision authority.
+The Emergent State Machine (ESM) defines an architectural framework for deterministic, interpretable decision systems in which probabilistic interpretation is explicitly separated from governed decision authority.
 
 The framework is domain-agnostic. It operates over structured decision processes rather than domain-specific logic. Domain specificity is introduced through signal definitions, derived signal construction, and projection functions, while the core architecture remains invariant.
 
