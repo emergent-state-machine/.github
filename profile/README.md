@@ -1,11 +1,18 @@
 # Emergent State Machine (ESM)
 
-## 🔬 Latest Paper
+## 🔬 Latest Papers
 
+# Architecture and Implementation
 
-**The Emergent State Machine: An Architectural Framework for Deterministic, Interpretable, Governable Decision Systems (v1.7.0)**  
+**The Emergent State Machine: An Architectural Framework for Deterministic, Interpretable, Governable Decision Systems (v1.7.0)**
 
 📄 [Read the paper (PDF)](https://github.com/emergent-state-machine/esm-spec/blob/main/papers/esm-architecture/esm_architecture_v1.7.0.pdf)
+
+# Formal Foundations
+
+**The Emergent State Machine: A Formal Framework for Interpretable Situational Reasoning (v1.0.0)**
+
+📄 [Read the paper (PDF)](https://github.com/emergent-state-machine/esm-spec/blob/main/papers/esm-math/esm_formal_framework_v1.0.0.pdf)
 
 ---
 
@@ -43,13 +50,13 @@ This separation produces systems that are:
 
 even as underlying models, signals, or generative components evolve.
 
---- 
+---
 
 ## Repository
 
 ### 📘 [esm-spec →](https://github.com/emergent-state-machine/esm-spec)
 
-Normative specification and formal definitions. 
+Normative specification and formal definitions.
 
 ---
 
@@ -69,5 +76,3 @@ ESM defines how state evolves.
 CML instruments the mutation boundary.
 
 ESM and CML can be adopted independently, but they are designed to work well together.
-
-
