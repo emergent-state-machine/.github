@@ -12,7 +12,7 @@
 
 **The Emergent State Machine: A Formal Framework for Interpretable Situational Reasoning (v1.0.0)**
 
-📄 [Read the paper (PDF)](https://github.com/emergent-state-machine/esm-spec/blob/main/papers/esm-math/esm_formal_framework_v1.0.0.pdf)
+📄 [Read the paper (PDF)](https://github.com/emergent-state-machine/esm-spec/releases/download/formal-framework-v1.0.0/esm_formal_framework_v1.0.0.pdf)
 
 ---
 
